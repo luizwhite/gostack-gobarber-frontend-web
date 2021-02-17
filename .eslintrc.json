@@ -35,10 +35,17 @@
     "react/prop-types": "off",
     "@typescript-eslint/ban-types": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "import/no-duplicates": "off",
     "object-curly-newline": [
       "error",
       {
         "multiline": true
+      }
+    ],
+    "camelcase": [
+      "error",
+      {
+        "allow": ["avatar_url", "old_password", "password_confirmation"]
       }
     ]
   },

@@ -2,12 +2,14 @@ import { createGlobalStyle } from 'styled-components';
 
 export const rootColors = {
   buttonBg: '#ff9000',
+  darkDefault: '#312E38',
+  grayDefault: '#999591',
+  errorColor: '#c53030',
+  headerBg: '#28262e',
+  infoColor: '#3172b7',
   inputBg: '#232129',
   linkColor: '#f4ede8',
-  darkDefault: '#312E38',
-  errorColor: '#c53030',
   successColor: '#2e656a',
-  infoColor: '#3172b7',
   toastErrorBgColor: '#fddede',
   toastSuccessBgColor: '#e6fffa',
   toastInfoBgColor: '#ebf8ff',
@@ -15,17 +17,18 @@ export const rootColors = {
 
 export default createGlobalStyle`
  :root {
-   --input-bg: ${rootColors.inputBg};
    --button-bg: ${rootColors.buttonBg};
-   --link-color: ${rootColors.linkColor};
    --dark-default: ${rootColors.darkDefault};
+   --gray-default: ${rootColors.grayDefault};
    --error-color: ${rootColors.errorColor};
-   --success-color: ${rootColors.successColor};
+   --header-bg: ${rootColors.headerBg};
+   --input-bg: ${rootColors.inputBg};
    --info-color: ${rootColors.infoColor};
+   --link-color: ${rootColors.linkColor};
+   --success-color: ${rootColors.successColor};
    --toast-error-bg-color: ${rootColors.toastErrorBgColor};
    --toast-success-bg-color: ${rootColors.toastSuccessBgColor};
    --toast-info-bg-color: ${rootColors.toastInfoBgColor};
-
  }
 
  * {

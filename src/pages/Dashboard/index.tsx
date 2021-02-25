@@ -20,7 +20,7 @@ import {
 } from './styles';
 
 import logoImg from '../../assets/logo.svg';
-import avatarImg from '../../assets/img_avatar.png';
+// import avatarImg from '../../assets/img_avatar.png';
 import { useAuth } from '../../hooks/auth';
 import api from '../../services/api';
 
